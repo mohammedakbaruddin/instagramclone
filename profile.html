@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .header nav {
+            display: flex;
+            gap: 15px;
+        }
+        .header nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+        .header nav a:hover {
+            color: #000;
+        }
+        .profile-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .profile-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-item {
+            margin: 10px 0;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .profile-item strong {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">InstaClone</div>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </div>
+    <div class="profile-container">
+        <h2>User Profile</h2>
+        <div class="profile-item"><strong>Name:</strong> John Doe</div>
+        <div class="profile-item"><strong>Email:</strong> johndoe@example.com</div>
+        <div class="profile-item"><strong>Date of Birth:</strong> 1990-05-15</div>
+        <div class="profile-item"><strong>IP Address:</strong> 192.168.1.1</div>
+        <div class="profile-item"><strong>Geolocation:</strong> 40.7128° N, 74.0060° W</div>
+        <div class="profile-item"><strong>Phone:</strong> +1 123-456-7890</div>
+        <div class="profile-item"><strong>Bio:</strong> A passionate traveler and photography enthusiast.</div>
+    </div>
+</body>
+</html>
