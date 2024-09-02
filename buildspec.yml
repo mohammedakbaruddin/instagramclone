@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing Dependencies
+  build:
+    commands:
+      - echo Building the application...
+      - mkdir dist
+      - cp *.html dist/   # Copy all HTML files to the dist folder
+artifacts:
+  files:
+    - '**/*'
+  base-directory: dist
